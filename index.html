@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b64f952405.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div class="myheader">
+        <nav>
+                <img src="img/" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#myabout">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="container">
+            
+            <div class="details">
+                <div class="content">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Vihas Reddy</span> <br>From India</h1>
+                    <div id="resume"><a href="img/Resume-Vihas-Reddy.pdf" download>DOWNLOAD RESUME</a>
+                    </div>
+                </div>
+                <div class="image1">
+                    <img src="img/user.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="myabout" id="myabout">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="img/user.png" alt="" width="600px" height="590px">
+                </div>
+                <div class="aboutcol2">
+                    <h1 id="titleabout">About Me</h1>
+                    <p id="description"> Welcome to my portfolio! I'm Vihas Reddy, a dedicated Computer Science Engineering student with a fervent passion for coding and development. Although I'm still a student, my enthusiasm for programming knows no bounds.
+                        Currently pursuing my Bachelor's degree, I've immersed myself in the world of technology, particularly focusing on honing my skills in Python, Java, and frontend development. Despite being in the early stages of my journey, I am eager to learn and grow, constantly seeking new challenges to expand my knowledge and expertise.
+                        As a Reliance Foundation scholar, I am committed to academic excellence and strive to apply my learnings to real-world projects. While I may lack professional experience, my dedication and drive are unwavering, fueling my ambition to make a meaningful impact in the tech industry.
+                        Beyond the realm of academia, I find solace and excitement in the game of cricket, both on and off the field. Playing cricket not only helps me unwind but also teaches me valuable lessons in teamwork, strategy, and perseverance.</p>
+                </div>
+            </div>
+            <div class="containerphoto">
+                <div class="headername">
+                    
+                </div>
+                <div class="sb-container">
+                <div class="teams">
+                    <h3 id="sec" activelink>Skills</h3>
+                    <div class="items-content">
+                    <ul>
+                        <li><span>Coding</span> <br>Problem Solving</li>
+                        <li><span>Web Development</span> <br>Web app development</li>
+                        <li><span>App Development</span><br>Building Androis/IOS apps</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="teams">
+                    <h3 id="sec">Experience</h3>
+                    <div class="items-content">
+                        <ul>
+                            <li><span>2024-Current</span><br>Google STEP Intern</li>
+                            <li><span>2023-24</span><br>Internship at Infinix SOlutions</li>
+                            <li><span>2022-23</span><br>Internshala Training</li>
+                            
+                        </ul>
+                        </div>
+                </div>
+                <div class="teams">
+                    <h3 id="sec">Education</h3>
+                    <div class="items-content">
+                        <ul>
+                            <li><span>2022-26</span> <br>BE CSE from CBIT Hyd(CGPA:9.8)</li>
+                            <li><span>2020-2022</span><br>Inter MPC from NRI Jr College</li>
+                            <li><span>2020</span><br>SSC from TSMS</li>
+                        </ul>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <div class="layer">
+                        <h3>Food Redistribution Platform</h3>
+                        <p>Food Donation Platform: This platform, built using HTML, CSS, JavaScript, and APIs, facilitates connections between local food donors and food banks. Users can select the amount of food they wish to donate and specify the location. Additionally, it incorporates geolocation functionality.</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="layer">
+                        <h3>Community Engagement</h3>
+                        <p>Developed using HTML, CSS, JavaScript, and Node.js, this platform serves as a valuable tool for community members to interact with one another. It is designed to enhance community safety measures and can be integrated with local law enforcement agencies for effective collaboration.</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="layer">
+                        <h3>Campus Connect</h3>
+                        <p>Campus Connect empowers college clubs to efficiently promote and coordinate events. It provides a centralized platform for clubs to showcase their activities and engage with students. With intuitive tools, clubs can streamline event organization, maximizing participation and impact. </p>
+                      
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+</div>
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" id="con">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> vihasreddy111@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +919959585325</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vihas-reddy-3a763b26a/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2" onclick="index.html">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
